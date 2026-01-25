@@ -264,4 +264,3 @@ Logs critical system events.
 
 ---
 
-End of DATA_SCHEMA.md
