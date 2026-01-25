@@ -1,9 +1,9 @@
 # Early Intervention System for Marginalized Vocational Schools  
-*A humane, data-informed decision-support system for preventing silent dropout and skill-poor graduation.*
+*A data-informed decision-support system for preventing silent dropout and skill-poor graduation.*
 
 ---
 
-## 🧭 Project Overview
+## Project Overview
 
 This project designs a **data-driven early-intervention system** for under-resourced vocational schools serving low-income and rural communities.
 
@@ -20,7 +20,7 @@ This system was designed to help schools move from **late, intuition-based decis
 
 ---
 
-## 🎯 Problem Context
+## Problem Context
 
 In marginalized vocational schools, three systemic failures often coexist:
 
@@ -43,7 +43,7 @@ but as an instrument for **care, early support, and dignity preservation**.
 
 ---
 
-## 🧩 System Goals
+## System Goals
 
 The system is designed to:
 
@@ -56,7 +56,7 @@ The system is designed to:
 
 ---
 
-## 🏗 System Scope
+## System Scope
 
 The current version focuses on:
 
@@ -72,7 +72,7 @@ All outputs are strictly advisory.
 
 ---
 
-## 👥 Primary Users
+## Primary Users
 
 - **Homeroom Teachers**  
   Full visibility into student risk profiles and intervention history
@@ -88,7 +88,7 @@ All outputs are strictly advisory.
 
 ---
 
-## ⚙️ Core Features
+## Core Features
 
 - Unified student profile (attendance + grades + alerts)  
 - Risk scoring engine  
@@ -99,7 +99,7 @@ All outputs are strictly advisory.
 
 ---
 
-## 🧠 Design Philosophy
+## Design Philosophy
 
 This system is guided by five core principles:
 
@@ -120,7 +120,7 @@ This system is guided by five core principles:
 
 ---
 
-## 🔐 Governance & Ethics
+## Governance & Ethics
 
 The system includes built-in safeguards:
 
@@ -133,7 +133,7 @@ The system includes built-in safeguards:
 
 ---
 
-## 🧮 Technical Components (Planned)
+## Technical Components
 
 - Data schema (students, attendance, grades, alerts, interventions)  
 - Risk scoring logic  
@@ -143,15 +143,4 @@ The system includes built-in safeguards:
 
 ---
 
-## 📈 V2 Roadmap (High-Level)
-
-- Principal & leadership dashboard  
-- Teacher workload balancing  
-- Longitudinal student trajectory tracking  
-- Parent mobile app  
-- Curriculum–skill alignment layer  
-- Policy simulation mode
-
----
-
-## 📂 Repository Structure
+## Repository Structure
