@@ -1,4 +1,4 @@
-# DATA_SCHEMA.md
+# DATA SCHEMA
 
 ## Purpose
 
