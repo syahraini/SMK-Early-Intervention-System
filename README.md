@@ -139,5 +139,3 @@ The system includes built-in safeguards:
 - Analytics layer (future V2)
 
 ---
-
-## Repository Structure
