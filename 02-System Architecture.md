@@ -1,4 +1,4 @@
-# SYSTEM_ARCHITECTURE.md
+# SYSTEM_ARCHITECTURE
 
 ## 1. Overview
 
