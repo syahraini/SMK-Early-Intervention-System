@@ -1,4 +1,4 @@
-# INTERVENTION_FLOW.md
+# INTERVENTION FLOW
 
 ## Purpose
 
@@ -158,4 +158,3 @@ An alert is marked as resolved if:
 
 ---
 
-End of INTERVENTION_FLOW.md
