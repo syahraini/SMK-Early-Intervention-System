@@ -1,7 +1,4 @@
-# Early Intervention System for Marginalized Vocational Schools  
 *A data-informed decision-support system for preventing silent dropout and skill-poor graduation.*
-
----
 
 ## Project Overview
 
