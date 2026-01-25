@@ -1,4 +1,4 @@
-# RULE_ENGINE.md
+# RULE
 
 ## Purpose
 
