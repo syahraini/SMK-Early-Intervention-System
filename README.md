@@ -1,6 +1,8 @@
-**A data-informed decision-support system for preventing silent dropout and skill-poor graduation.**
+# A data-informed decision-support system for preventing silent dropout and skill-poor graduation.
 
-#Project Overview#
+---
+
+## Project Overview
 This project designs a data-driven early-intervention system for under-resourced vocational schools serving low-income and rural communities.
 
 Many such schools face a silent failure mode:
