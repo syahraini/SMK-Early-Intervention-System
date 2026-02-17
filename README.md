@@ -109,9 +109,10 @@ The system includes built-in safeguards:
 ## About the Analyst
 Hi, I’m Syahraini, transitioning into Business Analysis from an accounting background. I specialize in building clear, executive-ready dashboards and turning complex datasets into practical insights — particularly within financial and operational processes.
 
----
 
 ## Contact
 LinkedIn: https://linkedin.com/in/nsyahraini
 Portfolio: https://syahrainiaini.framer.website/
 Email: syahraini.nur@outlook.com
+
+---
