@@ -1,4 +1,5 @@
-# A data-informed decision-support system for preventing silent dropout and skill-poor graduation.
+# Early Intervention Dropout Dashboard
+A data-informed decision-support system for preventing silent dropout and skill-poor graduation.
 
 ---
 
