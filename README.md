@@ -50,7 +50,8 @@ Klik file `EWS_SMK_Nusantara_Jaya_Portfolio.pdf` di atas untuk membaca dokumenta
 - Perancangan dashboard dan log intervensi
 
 ## Tentang Analis
-Halo, saya Syahraini, sedang dalam masa transisi ke bidang Analisis Bisnis dari latar belakang akuntansi. Saya memiliki spesialisasi dalam mendiagnosis proses keuangan yang tidak efektif, menerapkan tata kelola data, serta merancang otomatisasi yang menghilangkan pekerjaan berulang dan mengembalikan kepercayaan pimpinan.
+Halo, saya Syahraini. Saat ini sedang belajar dan mempraktikkan Analisis Bisnis.
+Saya tertarik pada bagaimana informasi mengalir dalam pengambilan keputusan, bukan hanya melalui sistem atau laporan, tapi juga melalui kebiasaan sehari-hari orang dan organisasi.
 
 ## Kontak
 LinkedIn: https://linkedin.com/in/nsyahraini
