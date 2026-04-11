@@ -49,8 +49,10 @@ Klik file `EWS_SMK_Nusantara_Jaya_Portfolio.pdf` di atas untuk membaca dokumenta
 - Definisi kebutuhan fungsional & non-fungsional
 - Perancangan dashboard dan log intervensi
 
-## Kontak
+## Tentang Analis
+Halo, saya Syahraini, sedang dalam masa transisi ke bidang Analisis Bisnis dari latar belakang akuntansi. Saya memiliki spesialisasi dalam mendiagnosis proses keuangan yang tidak efektif, menerapkan tata kelola data, serta merancang otomatisasi yang menghilangkan pekerjaan berulang dan mengembalikan kepercayaan pimpinan.
 
-**Syahraini**  
-[LinkedIn](https://linkedin.com/in/syahraini) (ganti dengan link LinkedIn Anda)  
-[Portfolio Website](https://syahrainiaini.framer.website)
+## Kontak
+LinkedIn: https://linkedin.com/in/nsyahraini
+Portofolio: https://syahrainiaini.framer.website/
+Email: syahraini.nur@outlook.com
