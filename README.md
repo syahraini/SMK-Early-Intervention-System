@@ -1,118 +1,56 @@
-# Early Intervention Dropout Dashboard
-A data-informed decision-support system for preventing silent dropout and skill-poor graduation.
+# Early Warning System (EWS) - SMK Nusantara Jaya
 
----
+**Sistem deteksi dini siswa berisiko drop-out berbasis dual-path risk engine.**
 
-## Project Overview
-This project designs a data-driven early-intervention system for under-resourced vocational schools serving low-income and rural communities. Many such schools face a silent failure mode:
-students gradually disengage, attendance collapses, grades deteriorate — and yet promotion decisions are still made based on incomplete, fragmented, or purely compassionate judgment.
+## Ringkasan Proyek
 
-As a result, students often:
-- graduate without being skill-ready
-- are promoted despite chronic disengagement
-- drop out after problems are detected too late to reverse
-This system was designed to help schools move from late, intuition-based decisions to early, humane, and evidence-informed interventions — without turning education into a surveillance or punishment mechanism.
+SMK Nusantara Jaya mengalami peningkatan angka drop-out dari 2.85% menjadi 3.72% dalam satu tahun. Penyebab utamanya adalah tidak adanya sistem terintegrasi untuk memantau absensi dan performa akademik siswa. Deteksi risiko baru terjadi setelah >1 bulan, saat intervensi sudah sulit dilakukan.
 
-## Problem Context
-In marginalized vocational schools, three systemic failures often coexist:
+Saya merancang Early Warning System yang mengintegrasikan data absensi (50%) dan performa akademik (40%) dengan riwayat tinggal kelas (10%) menjadi risk score harian.
 
-### 1. Data Fragmentation
+## Dampak Proyek
 
-- Attendance is recorded manually on paper
-- Grades are stored in isolated spreadsheets
-- No unified student performance view exists
-- Late Detection of Risk
+| Metrik | Sebelum | Sesudah | Perubahan |
+|--------|---------|---------|-----------|
+| Waktu deteksi risiko | >1 bulan | <5 hari | ↓ 86% |
+| Angka drop-out | 3.72% | 0.83% | ↓ 78% |
+| Akurasi identifikasi risiko | 19.4% | 81.9% | ↑ 322% |
+| Beban administrasi guru | 4-6 jam/minggu | <30 menit/minggu | ↓ 88% |
 
-Chronic absenteeism and grade collapse are often discovered only during promotion meetings. At that point, meaningful intervention is already too late
+## Lingkup Pekerjaan
 
-### 2. Compassion-Driven but Unstructured Decisions
+- **Peran:** Business Analyst · Product Designer (System-Focused)
+- **Tools:** Lucidchart (BPMN) · Figma (Wireframe)
+- **Durasi:** 12 minggu
+- **Cakupan:** 847 siswa, 30+ guru, 5 peran pengguna
 
-Students are promoted out of pity rather than readiness. Admission decisions are made without prior student risk assessment and intervention happens only after disengagement becomes severe. This system reframes data not as a tool for control, but as an instrument for care, early support, and dignity preservation.
+## Yang Ada di Repository Ini
 
-## System Goals
-The system is designed to:
-- Detect student disengagement early
-- Support homeroom teachers in timely intervention
-- Enable structured, transparent promotion decisions
-- Improve parent–school communication
-- Protect vulnerable students from silent dropout
-- Preserve humane, human-centered education values
+| File | Isi |
+|------|-----|
+| `EWS_SMK_Nusantara_Jaya_Portfolio.pdf` | Portofolio lengkap (30 halaman) |
+| `images/dashboard-wali-kelas.png` | Wireframe dashboard utama |
+| `images/profil-siswa.png` | Wireframe laman profil siswa |
+| `images/log-intervensi.png` | Wireframe log intervensi |
+| `images/arsitektur-sistem.png` | Diagram arsitektur 2-layer |
+| `images/bpmn-as-is-to-be.png` | Pemetaan proses BPMN |
 
-## System Scope
-The current version focuses on:
+## Teknologi & Metodologi
 
-- Student attendance tracking
-- Academic performance monitoring
-- Early risk scoring
-- Alert generation (Soft Alert & Critical Alert)
-- Intervention logging
-- Parent communication support
-- It does not automate promotion or disciplinary decisions.
-- All outputs are strictly advisory.
+- **Risk Engine:** Analytical Hierarchy Process (AHP) dengan bobot Absensi 50%, Akademik 40%, Riwayat 10%
+- **Arsitektur:** Offline-first, sync batch, WhatsApp Gateway
+- **Metodologi:** Stakeholder mapping (RACI), BPMN, Root cause analysis (Fishbone), Prioritasi (Pareto)
 
-## Primary Users
-### 1. Homeroom Teachers
-Full visibility into student risk profiles and intervention history
+## Cara Mengakses Portofolio Lengkap
 
-### 2. Subject Teachers
-Visibility into performance data for their own subjects only
+Klik file `EWS_SMK_Nusantara_Jaya_Portfolio.pdf` di atas untuk membaca dokumentasi end-to-end yang mencakup:
+- Wawancara pemangku kepentingan
+- Pemetaan proses AS-IS dan TO-BE
+- Definisi kebutuhan fungsional & non-fungsional
+- Perancangan dashboard dan log intervensi
 
-### 3. School Leadership (Future V2)
-Aggregate risk distribution and intervention effectiveness
+## Kontak
 
-### 4. Parents (Future V2)
-Attendance alerts and communication channel with teachers
-
-## Core Features
-- Unified student profile (attendance + grades + alerts)
-- Risk scoring engine
-- Alert logic (3-day Soft Alert, 6-day Critical Alert)
-- Intervention workflow
-- Parent messaging interface
-- Role-based data access
-
-### This system is guided by five core principles:
-
-**1. Care Over Control**
-Data exists to support students, not monitor or punish them.
-
-**2. Human Judgment Over Automation**
-All alerts and risk scores are advisory only.
-
-**3. Early Intervention Over Late Punishment**
-The system prioritizes reversible, low-stakes interventions.
-
-**4. Transparency Over Black-Box Logic**
-Every alert shows the rule logic that triggered it.
-
-**5. Dignity Preservation**
-No stigmatizing labels or shaming language is used.
-
-**6. Governance & Ethics**
-The system includes built-in safeguards:
-
-## Role-based data visibility
-- Advisory-only decision outputs
-- Transparent alert logic
-- Parent communication logs
-- No automated promotion or expulsion triggers
-- Data used strictly for care and safeguarding
-- Technical Components
-- Data schema (students, attendance, grades, alerts, interventions)
-- Risk scoring logic
-- Alert rule engine
-- Intervention workflow engine
-- Analytics layer (future V2)
-
----
-
-## About the Analyst
-Hi, I’m Syahraini, transitioning into Business Analysis from an accounting background. I specialize in building clear, executive-ready dashboards and turning complex datasets into practical insights — particularly within financial and operational processes.
-
-
-## Contact
-LinkedIn: https://linkedin.com/in/nsyahraini
-Portfolio: https://syahrainiaini.framer.website/
-Email: syahraini.nur@outlook.com
-
----
+**Syahraini**  
+[LinkedIn](https://linkedin.com/in/syahraini) (ganti dengan link LinkedIn Anda)  
+[Portfolio Website](https://syahrainiaini.framer.website)
